@@ -1,0 +1,31 @@
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+}
+
+header img {
+    max-width: 9%;
+    max-height: 9%;
+}
+
+header {
+    background-color: rgb(130, 201, 230);
+    background-image: url(/img/pattern.png);
+    background-size: 25% 250%;
+    padding: 2%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Title p {
+    margin-top: 0;
+    color: rgb(144, 140, 143);
+}
+
+.Title strong {
+    color: rgb(25, 136, 163)
+}
