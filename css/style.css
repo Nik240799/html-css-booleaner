@@ -1,4 +1,7 @@
-main {
+.Title,
+.Images,
+.Mainarticle,
+.Table {
     margin-left: 10%;
     margin-right: 10%;
     align-content: center;
@@ -17,7 +20,7 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 0;
 }
 
@@ -28,4 +31,38 @@ h1 {
 
 .Title strong {
     color: rgb(25, 136, 163)
+}
+
+.Images p {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.Mainarticle strong {
+    background-color: rgb(255, 243, 17);
+    font-weight: unset;
+}
+
+table {
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(81, 116, 204);
+    color: white;
+}
+
+.oddrow {
+    background-color: rgb(176, 218, 255);
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(42, 42, 112);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+    width: 100%;
 }
